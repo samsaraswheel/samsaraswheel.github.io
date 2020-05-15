@@ -30,4 +30,4 @@ How to include `code snippets` for reading which are backticks not apostrophe's
 
 How to include links. I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
 
-Will put this in the wiki eventually..
+Will put this in the wiki eventually when it becomes memorised..
