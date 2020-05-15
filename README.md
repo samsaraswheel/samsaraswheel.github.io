@@ -28,5 +28,5 @@ How to include `code snippets` for reading which are backticks not apostrophe's
 > How to blockquotes
 >> and nested blockquotes
 
-How to include links. I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting p github pages.
+How to include links. I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
 
