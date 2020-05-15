@@ -25,6 +25,8 @@ two end spaces for line break
 
 
 * bullets
+  1. numbering
+  2. numbering
   * bullets
      1. numbering
      2. numbering
