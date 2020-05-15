@@ -19,7 +19,7 @@ horizontal line
 ***Bold Italics***  
 
 two end spaces for line break
-two end spaces for line break
+two end spaces for line break  
 2 end spaces for line break  
 2 end spaces for line break  
 
