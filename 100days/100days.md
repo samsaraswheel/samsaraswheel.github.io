@@ -1,7 +1,10 @@
-New home for 100 days project. So silly that there's no create folder button in github. Wonky UX for such a mature product.
+# New home for 100 days project. 
+*(grrr...So silly that there's no create folder button in github. Really wonky UX for such a mature product. My OCD coming out)*
 
-I like the idea hich comes from https://www.100daysofcode.com/ 
+I like this idea hich comes from 
+
+https://www.100daysofcode.com/ 
 
 https://www.100daysofcode.com/resources/
 
-In line with my Ultra Learning Strategy.
+In line with my Ultra Learning Strategy for learning.
