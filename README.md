@@ -4,14 +4,17 @@ a digital space for eCcentric eXperiments...
 
 
 
-#Know your markdown: Heading 1
-##heading 2
+# Know your markdown: Heading 1
+## heading 2
+
 ---
 horizontal line
 ---
 
 *italics*
+
 **Bold**
+
 ***Bold Italics**
 
 *bullets
