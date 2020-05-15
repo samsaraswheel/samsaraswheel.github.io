@@ -23,7 +23,8 @@ two end spaces for line break
 2 end spaces for line break  
 2 end spaces for line break  
 
-
+1. numbering
+2. numbering
 * bullets
   1. numbering
   2. numbering
