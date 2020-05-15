@@ -4,12 +4,12 @@ a digital space for eCcentric eXperiments...
 
 
 
-# Know your [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): Heading 1
+# Know your basic [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): Heading 1
 
-## heading 2
-
+## heading 2: all headings come with their own underline
 
 horizontal line
+
 ---
 
 *italics*
@@ -23,7 +23,7 @@ horizontal line
      1. numbering
      2. numbering
 
-How to include `code snippets` for reading
+How to include `code snippets` for reading which are backticks not apostrophe's
 
 > How to blockquotes
 >> and nested blockquotes
