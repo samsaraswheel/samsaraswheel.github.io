@@ -18,10 +18,10 @@ horizontal line
 
 ***Bold Italics***
 
-*bullets
-  *bullets
-    1. numbering
-    2. numbering
+* bullets
+  * bullets
+     1. numbering
+     2. numbering
 
 How to include `code snippets` for reading
 
