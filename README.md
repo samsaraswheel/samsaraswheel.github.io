@@ -32,7 +32,7 @@ two end spaces for line break
      1. numbering
      2. numbering
 
-How to include `code snippets` for reading which are backticks not apostrophe's
+How to include `code snippets` for reading which are backtick`s not apostrophe's
 
 > How to blockquotes
 >> and nested blockquotes
