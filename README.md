@@ -4,7 +4,7 @@ a digital space for eCcentric eXperiments...
 
 
 
-# Know your basic [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): Heading 1
+# Heading 1: Know your basic [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): 
 
 ## heading 2: all headings come with their own underline
 
