@@ -4,8 +4,10 @@ a digital space for eCcentric eXperiments...
 
 
 
-# Know your markdown: Heading 1
+# Know your [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): Heading 1
+
 ## heading 2
+
 
 horizontal line
 ---
@@ -14,7 +16,7 @@ horizontal line
 
 **Bold**
 
-***Bold Italics**
+***Bold Italics***
 
 *bullets
   *bullets
