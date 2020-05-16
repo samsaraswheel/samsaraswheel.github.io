@@ -7,7 +7,7 @@ a digital space for eCcentric eXperiments...
 # Heading 1: Know your basic [markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax): 
 
 ## heading 2: all headings come with their own underline
-horizontal line
+horizontal line has just 3 --- under it alone
 
 ---
 
