@@ -48,9 +48,9 @@ How to include links. [for text] (for link). I am using this [guide](https://dan
 <details open>
 <summary>want to drop down?</summary>
 <br>
-Well, you asked for it!
-Well, you asked for it again
-and again
+Well, you asked for it!  
+Well, you asked for it again  
+and again  
 </details>
 
 Will put this in the wiki eventually when it becomes memorised...
