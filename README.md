@@ -22,13 +22,13 @@ two end spaces for line break
 2 end spaces for line break  
 2 end spaces for line break  
 
-1.numbering
+1. space after numbering
 2. auto numbering
 * bullets
-  1.numbering
+  1. space after numbering
   2. auto numbering
   * bullets
-     1. numbering
+     1. space after numbering
      2. auto numbering
 
 How to include `code snippets` for reading which are backtick`s not apostrophe's
