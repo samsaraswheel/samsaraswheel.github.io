@@ -37,6 +37,8 @@ How to include `code snippets` for reading which are backtick`s not apostrophe's
 > How to blockquotes
 >> and nested blockquotes
 
+tables https://help.github.com/en/github/writing-on-github/organizing-information-with-tables
+
 How to include links. I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
 
 Will put this in the wiki eventually when it becomes memorised..
