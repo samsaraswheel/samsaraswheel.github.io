@@ -43,7 +43,7 @@ How to include `code snippets` for reading which are backtick`s not apostrophe's
 |---|---|
 | I like [tables](https://help.github.com/en/github/writing-on-github/organizing-information-with-tables) | spaces before and after text |
 
-How to include links. I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
+How to include links. [for text] (for link). I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
 
 Will put this in the wiki eventually when it becomes memorised...
 
