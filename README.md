@@ -26,10 +26,10 @@ two end spaces for line break
 2. auto numbering
 * bullets
   1. space after numbering
-  2. auto numbering
+  2. one indent for roman numeral auto numbering
   * bullets
      1. space after numbering
-     2. auto numbering
+     2. 2 indents for alphabetic auto numbering
 
 How to include `code snippets` for reading which are backtick`s not apostrophe's
 
