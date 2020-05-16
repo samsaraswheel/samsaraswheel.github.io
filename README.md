@@ -45,14 +45,13 @@ How to include `code snippets` for reading which are backtick`s not apostrophe's
 
 How to include links. [for text] (for link). I am using this [guide](https://dannguyen.github.io/github-for-portfolios/index.html) for setting up github pages.
 
-<details open>
+<details closed>
 <summary>want to drop down?</summary>
 <br>
-Well, you asked for it! 
-
-Well, you asked for it again  
-
-and again  
+- < br > line breaks sentences. Well, you asked for it!<br>
+- Well, you asked for it again<br> 
+- And again<br>
+- And again
 </details>
 
 Will put this in the wiki eventually when it becomes memorised...
