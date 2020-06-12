@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--HTML5 Cheatsheet Forms - made by samsaraswheel 06/20-->
+<html>
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>HTML5 Cheatsheet Forms</title>
+
+</head>
+
+<body>
+
+  <h1>HTML5 Forms Cheatsheet</h1>
+   <p>  
+   Forms are a vital core element of webpage informational interactivity.
+   </p>
+
+  <nav>
+    | <a href="https://www.youtube.com/watch?v=fNcJuPIZ2WE" target="_blank">Basic Tags in 25mins - youtube</a> |
+    | <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Quick Overview - w3schools </a> |
+    | <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">Technical Resource - MDN</a> |
+  </nav>
+<!---******************THIS SECTION MIGHT NEED FURTHER REFINEMENT WORK!***************************-->
+  <h2>Form tag and atttributes</h2>
+  The main <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank"><code>form</code></a> tag uses the following most common <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes"
+    target="_blank">attributes</a>:
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#attr-name" target="_blank"><code>name</code></a> attribute, name of the form, is now deprecated, use id global attribute instead, still available for supporting older
+      websites</li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank"><code>id</code></a> global attribute, not pertaining to forms, but one of many aspects of HTML elements that can link up to one of many kinds of
+      <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors" target="_blank">CSS selectors</a>, commonly used externally by CSS and JavaScript.</li>
+    <li><code>action</code> attribute which points to a server side script for processing the name/value pair information gathered on the form.</li>
+    <li><code>method</code> attribute for setting a client/server request-response mode which can be <code>GET</code>(default) or <code>POST</code>(more secure).</li>
+  </ul>
+<!---******************THIS SECTION MIGHT NEED FURTHER REFINEMENT WORK!***************************-->
+
+  <hr>
+
+  <h2>Form Elements</h2>
+
+<!--Main FORM element: ACTION attribute points the form data to an external script file, may be written in php, javascript, python, ruby, currently a placeholder dead link #-->
+  <form id="masterform" action="#" method="get">
+    Form <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea" target="_blank"><code>textarea</code></a> tag:
+
+<!--TEXTAREA form subtag: any alpha numeric text entry for input-->
+    <textarea name="textareabox" rows="5" cols="40">The [textarea] inline element defines a multi-line input field. Attribute NAME set to "textareabox". You are reading it's default text in a stretchable box</textarea>
+
+    <br><br>
+<!--SELECT form subtag: drop down list of options-->
+    Form <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select" target="_blank"><code>select</code></a> tag:
+    <select name="selectbox">
+<!--OPTGROUP select subtag: for grouping options with a label, cosmetic with no inherent value-->
+<!--OPTION select and optgroup subtag: for options in your drop down list with value that can be attributed for input-->
+      <optgroup label="[optgroup] subTag 1">
+        <option value="one">[option] subtag, Value = One</option>
+        <option value="two">[option] subtag, Value = Two</option>
+      </optgroup>
+      <optgroup label="[optgroup] subTag 2">
+        <option value="three">[option] subtag, Value = Three</option>
+        <option value="four">[option] subtag, Value = Four</option>
+        <option value="five">[option] subtag, Value = Five</option>
+      </optgroup>
+    </select>
+    Dropdown list
+
+    <p>
+      Form <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset" target="_blank"><code>fieldset</code></a> Semantic tag: This outline box below is the fieldset sub tag which is used for cosmetics and grouping. It can also be
+      nested
+      within other form sub elements, also utilised for css selector use.
+    </p>
+
+<!--FIELDSET form subtag: this is an semantic form tag for grouping purposes-->
+    <fieldset>
+<!--LEGEND fieldset subtag: title of fieldset grouping-->
+      <legend>Fieldset <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend" target="_blank"><code>legend</code></a> tag:</legend>
+<!--INPUT form element: The most important grand-daddy of all the forms elements-->
+      <p>
+        Form <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank"><code>input</code></a> tag: this self closing tag is the most important of all the form tags and has a large subset of elements and attributes:
+      <ul>
+        <li>Often used in combination with global elements <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank"><code>label</code></a>, and global attribute <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"
+            target="_blank"><code>id</code></a>.</li>
+        <li>Most have <code>name / value</code> pair attributes, used together as input data sent to an external script for processing to server.</li>
+        <li>Some inputs often have <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation#Validation-related_attributes" target="_blank">contraint validation</a> attributes you can apply like <code>min, max, </code>etc.
+      </ul>
+      </p>
+
+<!--input attribute TYPE: 22 different preset input types under here-->
+      <p>
+        Input <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#%3Cinput%3E_types" target="_blank"><code>type</code></a> attribute: There are currently <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">22 types of form input attributes</a> available to be used here.
+      </p>
+<!--input type table layout begins here **********************INLINE CSS IS A INDUSTRY BEST PRACTISE NO NO!*********************************-->
+      <table style="border-spacing: 10px;">
+        <caption><em>Table: Form input type attributes</em></caption>
+        <thead>
+          <tr>
+            <th style="width: 250px;">Type</th>
+            <th style="width: 350px;">Object</th>
+            <th style="width: 800px;">Notes</th><!--**********************************NONSTRUCTURED INFO: THIS TABLE COLUMN MAY NEED CONTENT REFINEMENT********************************-->
+          </tr>
+        </thead>
+
+        <tbody>
+<!--input type BUTTON-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button" target="_blank"><code>button</code></a>:</td>
+            <td> <input type="button" value="display VALUE attribute"></td>
+            <td> No NAME attribute oddly. VALUE is on button. This button element has no default behaviour. You can program behavior by using javascript.</td>
+          </tr>
+
+<!--input type CHECKBOX-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox" target="_blank"><code>checkbox</code></a>:</td>
+            <td><input type="checkbox" name="somePropertyOnaServer" value="setToSomeValue1">and<input type="checkbox" name="somePropertyOnaServer" value="setToSomeValue2">and<input type="checkbox" name="somePropertyOnaServer" value="setToSomeValue3"></td>
+            <td> This element is set with NAME/VALUE pair attributes, with data values not visible on client but sent to the server only if ticked. Commonly used with global element label attached to the checkbox global attribute id.</td>
+
+<!--input type COLOR pallet picker-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color" target="_blank"><code>color</code></a>:</td>
+            <td> <input type="color"></td>
+            <td> Attributes NAME can be anything relevant to the server script, VALUE is the picked color in hexadecimal format <code>#rrggbb</code></td>
+          </tr>
+
+<!--input type DATE picker-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date" target="_blank"><code>date</code></a>:</td>
+            <td> <input type="date" min="1975-08-08" max="2075-01-04"></td>
+            <td> Attributes NAME can be anything relevant to the server script, VALUE is a date format <code>yyyy-mm-dd</code>. MIN and MAX date attributes are also in same date format, but the constraints aren't clear and will go red as only
+              indicator.</td>
+          </tr>
+
+<!--input type DATETIME-LOCAL picker-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local" target="_blank"><code>datetime-local</code></a>: </td>
+            <td><input type="datetime-local" name="datetimelocal" value="2017-06-01T08:30"> </td>
+            <td> Only Chrome and Edge support this UI at present, other browsers alternatively just use both the <code>time</code> and <code>date</code> input types instead. also replaces deprecated <code>datetime</code> type. NAME, VALUE, MIN & MAX
+              date attributes all used here.</td>
+          </tr>
+
+<!--input type EMAIL-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email" target="_blank"><code>email</code></a>: </td>
+            <td><input type="email" pattern=".+gmail.com" size="30"></td>
+            <td> Attributes are ALL some form of constraint, NAME, VALUE is the email, goes red if not matching. PATTERN is useful as it locks to certain email address, AUTOCOMPLETE, LIST, MAXLENGTH, MINLENGTH, MULTIPLE, NAME, PLACEHOLDER, READONLY,
+              REQUIRED, SIZE, and TYPE.</td>
+          </tr>
+
+<!--input type FILE-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file" target="_blank"><code>file</code></a>: </td>
+            <td><input type="file"></td>
+            <td> Attributes NAME, VALUE an unseen attribute which is either a single filepath or file list chosen, CAPTURE oddly for a video capture stream, ACCEPT sets the file type that can be accepted, MULTIPLE a boolean which sets single or
+              multiple files input.</td>
+          </tr>
+
+<!--input type HIDDEN-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden" target="_blank"><code>hidden</code></a>: </td>
+            <td><input type="hidden" name="whyhideme" value="idorfingerprintbigbrotherxyz123"></td>
+            <td> Attriubtes NAME, VALUE which can be set to anything but usually for webpage watermark, security id token, fingerprint tracking id, as it cannot be seen rendered on page, used with post method for secure data.</td>
+          </tr>
+
+<!--input type IMAGE-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image" target="_blank"><code>image</code></a>: </td>
+            <td><input type="image" alt="ALT button text, attribute SUBMIT QUERY by default" src="login.png" width="50" height="20"></td>
+            <td> Several Attributes, like <code>submit</code>, this is effectivly a custom button using a graphic, this button's function is for sending all the form data to different specific server scripts for processing, identical to submit button
+              behavior except with graphical tweaks e.g. login button.</td>
+          </tr>
+
+<!--input type MONTH-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month" target="_blank"><code>month</code></a>: </td>
+            <td><input type="month" name="month" value="2018-05"></td>
+            <td> Attributes NAME, VALUE is month is <code>YYYY-DD</code> format, etc.</td>
+          </tr>
+
+<!--input type NUMBER-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number" target="_blank"><code>number</code></a>: </td>
+            <td><input type="number" name="number" value="123" placeholder=="placeholder_textnospace"></td>
+            <td> NAME, VALUE is a number entry which is mouse scrollable.</td>
+          </tr>
+
+<!--input type PASSWORD-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password" target="_blank"><code>password</code></a>:</td>
+            <td> <input type="password"></td>
+            <td>Text is hidden</td>
+          </tr>
+
+<!--input type RADIO-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio" target="_blank"><code>radio</code></a>: </td>
+            <td><input type="radio" name="oneradioonly" value="option1">or<input type="radio" name="oneradioonly" value="option2">or<input type="radio" name="oneradioonly" value="option3"> </td>
+            <td>Radio buttons commonly use an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank"><code>id</code></a> global attribute. Usually they are nested in <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label" target="_blank"><code>label</code></a> global elements using the <code>for</code> attribute. This is the same value as the <code>id</code> which allows them to
+              bind together. Multiple radio elements with the same NAME attribute makes sure a set of radio buttons are in the same grouping.</td>
+          </tr>
+
+<!--input type RANGE-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range" target="_blank"><code>range</code></a>: </td>
+            <td><input type="range" name="vertical" min="0" max="100" orient="vertical"><input type="range" name="horizontal" min="0" max="100" orient="horizontal"></td>
+            <td></td>
+          </tr>
+
+<!--input type RESET-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset" target="_blank"><code>reset</code></a>: </td>
+            <td><input type="reset"></td>
+            <td>By default resets default values in form inputs</td>
+          </tr>
+
+<!--input type SEARCH-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search" target="_blank"><code>search</code></a>: </td>
+            <td><input type="search"></td>
+            <td></td>
+          </tr>
+
+<!--input type SUBMIT-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit" target="_blank"><code>submit</code></a>: </td>
+            <td><input type="submit"></td>
+            <td> Final submission of all form input data to server script. There a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button" target="_blank"><code>button</code></a> global element with a TYPE SUBMIT attribute that
+              does the same thing and is more widely used and has more
+              functionality than this one.</td>
+          </tr>
+
+<!--input type TEL-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel" target="_blank"><code>tel</code></a>: </td>
+            <td><input type="tel"></td>
+            <td></td>
+          </tr>
+
+<!--input type TEXT, this is one of the most commonly used input types here-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text" target="_blank"><code>text</code></a>: </td>
+            <td><input type="text"></td>
+            <td>This is one of the most commonly used of the input types here.</td>
+          </tr>
+
+<!--input type TIME-->
+          <tr>
+            <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time" target="_blank"><code>time</code></a>: </td>
+            <td><input type="time" datetime="00:00"></td>
+            <td>Firefox has a incomplete version of this element. Chrome and opera have a more functional one with adjuster buttons.</td>
+          </tr>
+
+<!--input type URL-->
+          <td>
+            <tr>
+              <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url" target="_blank"><code>url</code></a>: </td>
+              <td><input type="url"></td>
+              <td></td>
+            </tr>
+
+<!--input type WEEK-->
+            <tr>
+              <td>input type <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week" target="_blank"><code>week</code></a>: </td>
+              <td><input type="week"></td>
+              <td></td>
+            </tr>
+        </tbody>
+
+      </table>
+    </fieldset>
+  </form>
+</body>
+
+</html>
